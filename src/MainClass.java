@@ -1,4 +1,3 @@
-
 public class MainClass {
     //method
     public static void main(String[] args) {
@@ -45,11 +44,8 @@ public class MainClass {
         //couple of tests
 
         // Calling the overload method
-
         System.out.println("The Average of 2 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2));
         System.out.println("The Average of 3 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2,3));
-
-
     }
     //Create a method
     public static void print2values(int myfirstint, String myfirststring){
