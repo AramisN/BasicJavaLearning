@@ -47,8 +47,8 @@ public class MainClass {
         // Calling the overload method
         // MethodOverloading g = new MethodOverloading();
 
-        System.out.println(MethodOverloading.thesameoverridemethod(1,2));
-        System.out.println(MethodOverloading.thesameoverridemethod(1,2,3));
+        System.out.println("The Average of 2 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2));
+        System.out.println("The Average of 3 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2,3));
 
 
     }
