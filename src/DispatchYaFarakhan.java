@@ -16,7 +16,7 @@ public class DispatchYaFarakhan {
         // ref refers to an A object
         ref = a;
 
-        // calling A's version of m1()
+        // calling A's version of m1() method
         ref.m1();
 
         // now ref refers to a B object

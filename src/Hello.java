@@ -1,6 +1,6 @@
 
 public class Hello {
-
+    //method
     public static void main(String[] args) {
         String firstarg = "Aramis";
         System.out.println(firstarg);
