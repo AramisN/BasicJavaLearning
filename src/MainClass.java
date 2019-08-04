@@ -1,5 +1,5 @@
 
-public class Hello {
+public class MainClass {
     //method
     public static void main(String[] args) {
         String firstarg = "Aramis";
@@ -42,6 +42,15 @@ public class Hello {
         displayhighscorePosition("Asghar", calculatehighscorePosition(400));
         displayhighscorePosition("Maria", calculatehighscorePosition(50));
 
+        //couple of tests
+
+        // Calling the overload method
+        // MethodOverloading g = new MethodOverloading();
+
+        System.out.println(MethodOverloading.thesameoverridemethod(1,2));
+        System.out.println(MethodOverloading.thesameoverridemethod(1,2,3));
+
+
     }
     //Create a method
     public static void print2values(int myfirstint, String myfirststring){
@@ -49,7 +58,6 @@ public class Hello {
     }
     public static void displayhighscorePosition(String playername, int playerposition){
         System.out.println(playername + " was able to get into the pisition of " + playerposition);
-
     }
     public static int calculatehighscorePosition(int playerscore){
         if (playerscore > 1000) return 1;
@@ -57,6 +65,9 @@ public class Hello {
         else if (playerscore > 100 && playerscore < 500) return 3;
         else return 4;
     }
+
+
+
 
 
 }
