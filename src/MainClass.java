@@ -17,6 +17,8 @@ public class MainClass {
         // Primitive datatypes
         long longval = 9_223_372_036_854_775_807L;
         int intval = 2147483548;
+        System.out.println("The maximum number for an Int variable is "
+                +Integer.MAX_VALUE + " , " +Integer.MIN_VALUE+ " and what you have in your variable is "+ intval);
         byte byteval = 127;
 
         //conditionals
@@ -71,6 +73,12 @@ public class MainClass {
                 ParsingValueConvert.gettheparsingconvertdouble(forconversion));
         System.out.println("The converted Int to String is "+
                 ParsingValueConvert.gettheparsingconvert(forconversion2));
+
+        //Read User input
+        System.out.println("This is what you typed into Scanner input of this code: \n " +
+                ReadUserInputs.scannerinput());
+
+
         //Call a method
         print2values(7,"Aramis");
 
