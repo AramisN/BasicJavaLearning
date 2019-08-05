@@ -19,6 +19,36 @@ public class MainClass {
         int intval = 2147483548;
         byte byteval = 127;
 
+        //conditionals
+            //Switchcase
+        switch(byteval){
+            // We use break to get out of here, otherwise the compiler will
+            // go through each part of the switch statement.
+            case 126:
+                System.out.println("1 more to reach maximum.");
+                break;
+            case 127:
+                System.out.println("Maximum is reached in the variable.");
+                break;
+            // You can use multiple cases with one action
+            case 1: case 2: case 3:
+                System.out.println("The value is so little.");
+                break;
+            default:
+                System.out.println("Hmm, there's something wrong!");
+                break;
+        }
+            //While and DoWhile
+        while (byteval == 127){
+            System.out.println("Number is "+ byteval);
+            break;
+        }
+
+        do {
+            System.out.println("I'm going to be printed anyway.");
+        }while (byteval != 127);
+
+
         // for loops
         for (int i = 0; i <= int1; ++i) {
             for (int j = 0; j <= i; ++j) {
@@ -32,7 +62,15 @@ public class MainClass {
             }
             System.out.println();
         }
-
+            String forconversion = "77";
+            int forconversion2 = 77;
+        //Parsing value conversion
+        System.out.println("The converted String to Int is "+
+                ParsingValueConvert.gettheparsingconvert(forconversion));
+        System.out.println("The converted String to Double is "+
+                ParsingValueConvert.gettheparsingconvertdouble(forconversion));
+        System.out.println("The converted Int to String is "+
+                ParsingValueConvert.gettheparsingconvert(forconversion2));
         //Call a method
         print2values(7,"Aramis");
 
@@ -44,15 +82,17 @@ public class MainClass {
         //couple of tests
 
         // Calling the overload method
-        System.out.println("The Average of 2 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2));
-        System.out.println("The Average of 3 numbers is: \n " + MethodOverloading.thesameoverridemethod(1,2,3));
+        System.out.println("The Average of 2 numbers is: \n " +
+                MethodOverloading.thesameoverridemethod(1,2));
+        System.out.println("The Average of 3 numbers is: \n " +
+                MethodOverloading.thesameoverridemethod(1,2,3));
     }
     //Create a method
     public static void print2values(int myfirstint, String myfirststring){
         System.out.println(myfirststring + " " + myfirstint);
     }
     public static void displayhighscorePosition(String playername, int playerposition){
-        System.out.println(playername + " was able to get into the pisition of " + playerposition);
+        System.out.println(playername + " was able to get into the position of " + playerposition);
     }
     public static int calculatehighscorePosition(int playerscore){
         if (playerscore > 1000) return 1;
