@@ -5,7 +5,11 @@ public class OopCar {
 
 
     public void setModel(String model) {
-        this.model = model;
+        if (model.equals("BMW-X6") || model.equals("Mustang-GT500")) {
+            this.model = model;
+        }else {
+            this.model = model + " " + "which is not as hot as other cars (kidding)";
+        }
     }
 
     public String getModel() {
