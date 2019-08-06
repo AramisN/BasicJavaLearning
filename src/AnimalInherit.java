@@ -14,9 +14,12 @@ public class AnimalInherit {
         System.out.println("Animal.eat() is called and working.");
     }
 
-    public void move(){
-
+    public int move(){
+        int movespeed = 0;
+        System.out.println("You are moving but ");
+        return movespeed;
     }
+
 
     public int getBrain() {
         return brain;

@@ -99,6 +99,9 @@ public class MainClass {
         //Calling the Dog class which is inherited from Animal class
         DogInherit dog = new DogInherit(2,4,1,24,1);
         dog.eat();
+
+        //
+        dog.walk(4);
     }
     //Create a method
     public static void print2values(int myfirstint, String myfirststring){

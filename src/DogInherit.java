@@ -28,4 +28,12 @@ public class DogInherit extends AnimalInherit {
                 // the eat class of Motherclass(animal) is being over-ride
         super.eat();
     }
+
+    public void walk(int speed){
+       int  newspeed = this.move() + speed;
+        System.out.println("Walking speed is:" + newspeed);
+    }
+    public void run(int speed){
+
+    }
 }
