@@ -108,7 +108,9 @@ public class MainClass {
         else return 4;
     }
 
-
+    //Calling the Dog class which is inherited from Animal class
+    DogInherit dog = new DogInherit(2,4,1,24,1);
+    dog.eat();
 
 
 

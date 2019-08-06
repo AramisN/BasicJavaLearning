@@ -19,7 +19,7 @@ public class OopNewCarDispatch {
         mustang.setModel(model3);
 
         //giving no value to trigger the constructor to work
-        System.out.println(test777.getModel()); //Outputs BMW-X6
+        System.out.println(test777.getModel()); //Outputs Default-Model
 
        //printing out what we've sent to the class
        System.out.println(bmw.getModel()); //Outputs BMW-X6
