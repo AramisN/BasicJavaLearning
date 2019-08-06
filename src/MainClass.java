@@ -6,7 +6,7 @@ public class MainClass {
 
         // variable sets
         int int1 = 8;
-        String str1 = "Armis";
+        String str1 = "Aramis";
         double dob1 = 3.14;
         char ch1 = 'A';
         System.out.println(int1 + str1 + " and " + dob1);
@@ -45,7 +45,6 @@ public class MainClass {
             System.out.println("Number is "+ byteval);
             break;
         }
-
         do {
             System.out.println("I'm going to be printed anyway.");
         }while (byteval != 127);
