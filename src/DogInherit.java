@@ -17,4 +17,15 @@ public class DogInherit extends AnimalInherit {
         this.legs = legs;
     }
 
+    private void chew(){
+        System.out.println("Dog always chews the food.");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Dog.eat() is being called.");
+        chew(); //calling chew method from another method whithin Dog class which in it,
+                // the eat class of Motherclass(animal) is being over-ride
+        super.eat();
+    }
 }

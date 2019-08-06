@@ -93,6 +93,12 @@ public class MainClass {
                 MethodOverloading.thesameoverridemethod(1,2));
         System.out.println("The Average of 3 numbers is: \n " +
                 MethodOverloading.thesameoverridemethod(1,2,3));
+
+
+
+        //Calling the Dog class which is inherited from Animal class
+        DogInherit dog = new DogInherit(2,4,1,24,1);
+        dog.eat();
     }
     //Create a method
     public static void print2values(int myfirstint, String myfirststring){
@@ -108,9 +114,7 @@ public class MainClass {
         else return 4;
     }
 
-    //Calling the Dog class which is inherited from Animal class
-    DogInherit dog = new DogInherit(2,4,1,24,1);
-    dog.eat();
+
 
 
 
